@@ -2,10 +2,22 @@
 
 by Malvika Sharan, Markus Ankenbrand, Konrad Förstner
 
+## About
+
 This is the course material for the [Software
 Carpentry](http://software-carpentry.org/) workshop taking place in
 Würzburg at October 26th and 27th, 2016. The course is an introduction
 for novices to the Unix Shell, Python and git.
+
+## Program
+
+### Unix Shell
+
+### Python
+
+### Git
+
+## License
 
 This work by Malvika Sharan, Markus Ankenbrand, Konrad Förstner is
 licensed under a [Creative Commons Attribution 4.0 International
