@@ -17,6 +17,12 @@ for novices to the Unix Shell, Python and git.
 
 ### Git
 
+## Open Session
+
+This session offers space for further exercises, questions and related
+topics like open source / open content licenses, open science
+practices, reproducible research.
+
 ## License
 
 This work by Malvika Sharan, Markus Ankenbrand, Konrad Förstner is
