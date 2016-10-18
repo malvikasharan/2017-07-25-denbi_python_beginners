@@ -11,6 +11,10 @@ for novices to the Unix Shell, Python and git.
 
 ## Program
 
+### Introduction / Motivation
+
+- Ice breaker - Who are we, who are you?
+
 ### Unix Shell
 
 ### Python
