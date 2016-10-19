@@ -70,3 +70,25 @@ git commit -m "Add concerns about effects of Mars' moons on Wolfman"
 ```
 Repeat the above steps as often as you want.
 You can check your commits with `git log` at any time.
+## Exploring History
+Introduce some changes with `nano mars.txt` and do not add or commit them.
+Explore your changes against the current and previous versions
+```{bash}
+git diff HEAD mars.txt
+git diff HEAD~1 mars.txt
+git diff HEAD~2 mars.txt
+```
+Explore all changes in comparison to a specific version, first find the hash sum for your desired commit using `git log` and then
+```{bash}
+git diff <hash-sum> mars.txt
+# for example (this will probably not work for you)
+git diff 373e6b6e9d86dab310b95642660e7b4c07054c1e mars.txt
+# this can be shortened as long as the beginning of the hash sum is unique
+git diff 373e6b6 mars.txt
+```
+Revert the changes you have not yet added or committed
+```{bash}
+git checkout HEAD mars.txt
+# or just
+git checkout -- mars.txt
+```
