@@ -1,5 +1,7 @@
 # Git
-See also: https://swcarpentry.github.io/git-novice
+See also:
+ - https://swcarpentry.github.io/git-novice
+ - http://rogerdudler.github.io/git-guide/
 ## Setup
 Set global configuration
 ```{bash}
