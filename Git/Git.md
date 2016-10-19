@@ -106,3 +106,13 @@ results/
 ```
 Check again with `git status`.
 Add `.gitignore` and commit your changes.
+## Remote repositories
+To work with remote repositories, e.g. on GitHub important commands are
+```{bash}
+# Clone a repository to your local machine
+git clone https://github.com/user/repo.git
+# Get changes from the server
+git pull
+# Publish your local changes on the server
+git push
+```
