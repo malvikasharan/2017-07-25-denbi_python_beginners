@@ -1,4 +1,5 @@
 # Git
+See also: https://swcarpentry.github.io/git-novice
 ## Setup
 Set global configuration
 ```{bash}
