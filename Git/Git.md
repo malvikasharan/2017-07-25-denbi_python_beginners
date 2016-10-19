@@ -92,3 +92,17 @@ git checkout HEAD mars.txt
 # or just
 git checkout -- mars.txt
 ```
+## Ignoring things
+Create some files you don't want to track
+```{bash}
+mkdir results
+touch a.dat b.dat c.dat results/a.out results/b.out
+```
+Check `git status`
+Ignore the files by creating a special file `nano .gitignore` with the content
+```
+*.dat
+results/
+```
+Check again with `git status`.
+Add `.gitignore` and commit your changes.
