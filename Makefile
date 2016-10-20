@@ -44,4 +44,5 @@ example_files:
           http://www.gutenberg.org/cache/epub/22764/pg22764.txt     
 
 
-clean: rm -f *pdf *~
+clean:
+	rm -f *pdf *~
