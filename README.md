@@ -1,33 +1,35 @@
 # Course Material for the Software Carpentry workshop Würzburg 2016-10-26/2016-10-27
 
-
-by Malvika Sharan, Markus Ankenbrand, Konrad Förstner
-
-## About
+## 1 About
 
 This is the course material for the [Software
 Carpentry](http://software-carpentry.org/) workshop taking place in
 Würzburg at October 26th and 27th, 2016. The course is an introduction
 for novices to the Unix Shell, Python and git.
 
-## Program
+## 2 Schedule
 
+### 2.1 Welcome and introduction 
 
-### Introduction / Motivation
-
-- Welcome and introduction of the the instructor and helpers
-- Who are you?
-- Ice breaker - Sort people by
-    - In which year of you PhD are you?
+- Introduction of the instructors and helpers
+- Introduction of the participants
+- Ice breaker - Sort people by the following values:
+    - In which year of your PhD are you?
     - How strong are the computational requirement in your PhD
     - Considerung the course topic - how strong do you feel about knowing this already?
-    - Organize by research field
+    - Group by research field
+- Name tags
+- Breaks
+- Material of the course
+- The etherpad
+- Photos
+- HackyHour and WUBSyB
 
-### Unix Shell (Konrad)
+### 2.2 Unix Shell (Konrad)
 
-### Python
+### 2.3 Python
 
-#### Session 1 - Malvika:
+#### 2.3.1 Session 1 (Malvika):
 
 - Print, literal constants
 - Variables
@@ -37,36 +39,34 @@ for novices to the Unix Shell, Python and git.
 - if else startement
 - for loop
 
-#### Session 2 - Markus:
+#### 2.3.2 Session 2 (Markus):
 
 - Function definition: reproducibility
 - Doc string, sensible names, argument
 
-#### Session 3 - Konrad:
+#### 2.3.3 Session 3 (Konrad):
 
 - Importing module and module recommendations (important modules: sys,
    math, pandas, numpy, scipy, matplotlib, openpyxl, requests,
    biopython, collections, scikit-learn, )
 - Writing scripts
 
-### Git (Markus)
+### 2.4 Git (Markus)
 
-Open Session
-------------
+
+### 2.5 Open Session
 
 This session offers space for further exercises, questions and related
 topics like open source / open content licenses, open science practices,
 reproducible research.
 
-Sources
--------
+## 3 Sources
 
 - Unix Shell -
 - Git -
 - Python -
 
-License
--------
+## 4 License
 
 This work by Malvika Sharan, Markus Ankenbrand, Konrad Förstner is
 licensed under a [Creative Commons Attribution 4.0 International
