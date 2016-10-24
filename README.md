@@ -22,8 +22,8 @@ for novices to the Unix Shell, Python and git.
 - Breaks
 - Material of the course
 - The etherpad
-    - http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg
-    - Short URL: http://bit.ly/2emNADR
+    - [http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg](http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg)
+    - Short URL: [http://bit.ly/2emNADR](http://bit.ly/2emNADR)
     - Exercise - add your name to the list of participants
 - Photos
 - HackyHour and WUBSyB
@@ -32,6 +32,12 @@ for novices to the Unix Shell, Python and git.
     - Reproducibility / Transparency
 
 ### 2.2 Unix Shell (Konrad)
+
+- Files, folders, locations
+- Manipulating files and folders
+- Connecting tools with pipes
+- For loops
+- Shell scripting
 
 ### 2.3 Python
 
@@ -74,9 +80,16 @@ reproducible research.
 
 ## 3 Sources
 
-- Unix Shell -
-- Git -
-- Python -
+- Unix shell - Was created based on [Introduction to the Unix Shell
+  for
+  biologists](https://github.com/konrad/Introduction_to_the_Unix_Shell_for_biologists)
+  by Konrad Förstner
+- Python - Was created based on [a SWC course by Malvika Sharan and
+  Toby
+  Hodges](https://github.com/malvikasharan/Software_carpentry_EMBL)
+- Git - Was created based on the [Software Carpentry introduction to
+  Git for novices](https://github.com/swcarpentry/git-novice) course maintained by
+  Ivan Gonzalez and Daisie Huang
 
 ## 4 License
 
