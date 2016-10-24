@@ -1,7 +1,12 @@
 # Python
 
-Count the number of occurances of each feature (gene) in the gff file from
-Shell script part. If you do not have the file plese download it.
+## Motivation (run by the instructor)
+
+This exampale should show you that you can write very powerful tool
+with only a few lines of code. In this example we plot the gene length
+distribution of *Salmonella* Typhimurium using the gff file we
+downloaded for the Unix Shell part. If you do not have the file please
+download it again.
 
 ```
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old_refseq/Bacteria/\
@@ -9,27 +14,73 @@ Salmonella_enterica_serovar_Typhimurium_SL1344_uid86645/\
 NC_016810.gff
 ```
 
-Open a file called `count_features.py`
+Run the final version of the Python script
+`plot_gff_gene_length_distribution.py` and run it on `NC_016810.gff`.
+Then open the resulting file NC_016810.gff_gene_length_distribution.pdf.
 
+## Python basics in a Jupyter notebook
+
+The following topics are taught in a Jupyter notebook
+
+- Print, literal constants
+- Variables
+- String format operators
+- Data structures: str, int, float, list, dict
+- File handling
+- New lines, tab etc., regular expression
+- `if` `else` startement
+- `for` loop
+
+## Writing Python scripts
+
+Here we will create the file `plot_gff_gene_length_distribution.py`
+from scratch and add successively features.
 
 ```
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old_refseq/Bacteria/\
-Salmonella_enterica_serovar_Typhimurium_SL1344_uid86645/\
-NC_016810.gff
+for line in open("NC_016810.gff"):
+    print(line)
+```
+
+```
+python plot_gff_gene_length_distribution.py
 ```
 
 ```
 import sys
-import defaultdict
 
-feature_counter = defaultdict(int)
+print(sys.argv)
+
+for line in open("NC_016810.gff"):
+    # print(line)
+    pass
+```
+
+```
+python plot_gff_gene_length_distribution.py NC_016810.gff
+```
+
+```
+import sys
+
 for line in open(sys.argv[1]):
-    feature_counter[line.split()[2]] +=1
-
-for feature, counting in feature_counter.items():
-   print(feature, counting)
+    print(line)
 ```
 
+
 ```
-$ count_features.py NC_016810.gff
+import sys
+
+for line in open(sys.argv[1]):
+    split_line = line.split()
+    print(split_line)
 ```
+
+
+```
+import sys
+
+for line in open(sys.argv[1]):
+    print(row[3] - row[4])
+```
+
+...

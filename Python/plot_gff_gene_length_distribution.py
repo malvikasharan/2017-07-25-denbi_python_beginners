@@ -9,8 +9,8 @@ for line in open(sys.argv[1]):
         continue
     split_line = line.split()
     if split_line[2] == "gene":
-        length = int(split_line[4]) - int(split_line[3])
-        gene_lengths.append(length)
+        cur_gene_length = int(split_line[4]) - int(split_line[3])
+        gene_lengths.append(cur_gene_length)
 
 plt.hist(gene_lengths, bins=100, color="gray")
 plt.savefig("{}_gene_length_distribution.pdf".format(sys.argv[1]))
