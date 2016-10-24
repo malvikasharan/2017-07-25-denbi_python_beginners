@@ -21,70 +21,55 @@ workflow reproducible. Knowing how to use the shell will also enable
 you to run programs that are only developed for this environment which
 is the case for many bioinformatical tools.
 
-# Work environment and test files
+# Create and download some test files
 
-During this course all of you are working on Ubuntu (version 14.04)
-which is a widely used GNU/Linux distribution. The systems boots from
-a USB stick which offers you to run a live system or to install Ubuntu
-on your computer. We will run the live mode which will not change the
-system installed on your PC. After shutting the live system down and
-removing the stick everything on the computer will be as before. 
-
-To get test data click on the `Dash` button on the top left of your
-screen, type `terminal` and click on the Terminal icon. You will learn
-later what you are doing but for the moment just type the following
-commands into the command line interface. Do not write the dollar
-sign(`$`). It just indicates the so called prompt:
+Use the `Makefile` of this repo and run
 
 ```
-$ wget http://data.imib-zinf.net/unix_course_files.tar.gz
-$ tar xfz unix_course_files.tar.gz
-$ rm unix_course_files.tar.gz
-```
-
-If this URL is not existing anymore you can use the `Makefile` which
-is located in the repository of this manuscript to generate the test
-data:
-
-```
-$ export GIT_URL=https://raw.githubusercontent.com/konrad
-$ wget $GIT_URL/Introduction_to_the_Unix_Shell_for_biologists/master/Makefile
 $ make example_files
 ```
+
+This should create folder `unix_course_files` thank contains serveral
+examples files
 
 # The basic anatomy of a command line call
 
 Running a tool in the command line interface follows a simple
 pattern. At first you have to write the name of the command (if it is
 not globally installed it's precise location needs to be given - we
-will get to this later). Some programs additionally require parameters
-and arguments. Parameters usually start with a dash (`-`). The common
-pattern looks like this (`<>` indicates obligatory items, `[]`
-indicates optional items):
+will get to this later). Some programs additionally require
+parameters. While the parameters are the requirement of the program
+the actual values we give are called arguments. There are two
+different ways how to pass those arguments to a program - via keywords
+parameter (also called named keywords, flags or options) or via
+positional parameters.  The common pattern looks like this (`<>`
+indicates obligatory items, `[]` indicates optional items):
 
-  `<program name>` `[parameters]` `[arguments]`
+```
+<program name> [keyword parameters] [positional parameters]
+```
 
 An example is calling the program `ls` which lists the content of a
-directory. You can simply call it without any parameter 
+directory. You can simply call it without any argument
 
 ```
 $ ls
 ```
 
-or with one or more  parameters
+or with one or more keyword argument
 
 ```
 $ ls -l
 $ ls -lh
 ```
 
-or with one or more arguments
+or with one or more positional arguments
 
 ```
 $ ls test_folder
 ```
 
-or with one or more parameters and arguments
+or with one or more keyword and positional arguments
 
 ```
 $ ls -l test_folder
@@ -555,7 +540,6 @@ Topics:
 * `uniq`
 * `grep`
 * `cut`
-* `tr`
 
 There are several tools that let you manipulate the content of a plain
 text file or return information about it. If you want for example some
@@ -616,21 +600,6 @@ use `-c`:
 $ grep -ic species origin_of_species.txt
 ```
 
-The program `tr` (*translate*) exchanges one character by another. It
-reads from the *standard input* and performs the replacement. To direct
-the content of a file as *standard input* into a program `<` is
-applied. Have a quick look at the content of the file `DNA.txt`.
-
-```
-$ cat DNA.txt
-```
-
-We now want to replace all `T`s in the file by `U`s. For this we call:
-
-```
-$ tr T U < DNA.txt
-```
-
 # Connecting tools
 
 Another piece of the Unix philosophy is to build small tools that do
@@ -648,6 +617,12 @@ in the shell and remove the `\`):
 $ head -n 1000 origin_of_species.txt | grep species \ 
   | grep wild | tr w m
 ```
+
+# Repeating command using the `for` loop
+
+
+# Shell scripting
+
 
 # Examples analysis
 
@@ -714,144 +689,5 @@ count the number genes on the plus and minus strand:
 $ cut -f 3,7 NC_016810.gff | grep gene | sort | uniq -c
 ```
 
-## Calculate the GC content of a genome
 
-Let us assume the GC content of the genome is not known to us. We can
-use a handful of commands to calculate this quickly. We can gain the
-number of nucleotides in the following manner.
 
-```
-$ grep -v ">" NC_016810.fna | grep -o "A" | wc -l
-
-$ grep -v ">" NC_016810.fna | grep -o "C" | wc -l
-
-$ grep -v ">" NC_016810.fna | grep -o "G" | wc -l
-
-$ grep -v ">" NC_016810.fna | grep -o "T" | wc -l
-```
-
-As we only need to get the sum of As and Ts as well as Cs and Gs we
-can use an extended pattern for grep. The `|` means *or*:
-
-```
-$ grep -v ">" NC_016810.fna | grep -Eo "A|T" | wc -l
-
-$ grep -v ">" NC_016810.fna | grep -Eo "C|G" | wc -l
-```
-
-Once we have the number we can calculate the GC content by piping a
-formula into the calculator `bc`.
-
-```
-$ echo "scale=5; 2332503/(2332503+2545509)*100" | bc
-```
-
-## Multiple sequence alignment with `muscle`
-
-We cannot only work with the default tools of the Unix shell but
-additionally have now access to a plethora of command line
-tools. Let's assume we want to perform a multiple alignment of the
-members of the [GlmZ
-family](http://rfam.xfam.org/family/GlmZ_SraJ). We choose
-[`muscle`](http://www.drive5.com/muscle/) for this purpose. Its web
-site offers compiled binaries which means we only have to download the
-containing archive via (again, please write it in one line in the
-shell and remove the `\`).
-
-```
-$ wget http://www.drive5.com/muscle/downloads3.8.31/\
-     muscle3.8.31_i86linux64.tar.gz
-```
-
-and extract it:
-
-```
-$ tar xfz muscle3.8.31_i86linux64.tar.gz
-```
-
-(If you happen to have an older 32 bit system use
-`muscle3.8.31_i86linux32.tar.gz` instead of
-`muscle3.8.31_i86linux64.tar.gz` in the two command above.)
-
-As we might need this tool more often (this is purely hypothetical as
-once you shutdown the live system any data will be gone) we generate a
-folder `bin` in our home directory. This is by convention a place
-were those programs are stored.
-
-```
-$ mkdir bin
-```
-
-Then we move the tool into the folder and rename it:
-
-```
-$ mv muscle3.8.31_i86linux64 ~/bin/muscle
-```
-
-and clean up a little bit:
-
-```
-$ rm muscle3.8.31_i86linux64.tar.gz
-```
-
-Now we download the sequences of the RNAs which we want to align
-(again, please write the URL in one line and remove the `\`).
-
-```
-$ wget -O RF00083.fa "http://rfam.xfam.org/family/RF00083/\
-     alignment?acc=RF00083&format=fastau&download=1"
-```
-
-Have a look at the content of the file using `less` or `cat`.
-
-If you call `muscle` without anything you will get a list of parameters. 
-
-```
-$ ~/bin/muscle
-```
-
-Please be aware that we have to give the path to `muscle`.
-
-We want to specify an input file using (`-in`) and an output file (`-out`):
-
-```
-$ ~/bin/muscle -in RF00083.fa -out RF00083_aligned.fa
-```
-
-Now we have the alignments stored in `RF00083_aligned.fa`.
-
-# Very, very basic scripting
-
-One huge advantage of the Unix shell is that you can script
-actions. For example you can write the command for the multiple
-alignment into a file e.g. using `echo`:
-
-```
-$ echo "~/bin/muscle -in  RF00083.fa -out RF00083_aligned.fa" \
-    > run_me.sh
-```
-
-If you want to run the command in that script you can call the script
-in the following manner:
-
-```
-$ bash run_me.sh
-```
-
-Shell scripting offers very powerful options to program workflows. Due
-to time restriction we will not cover this here.
-
-# What's next
-
-Here we just covered a small selection of tools and possibilities and
-hope that you can extend your Unix skills based on this knowledge
-yourself. There are many basic tools we have not covered but which could be
-important, e.g., archiving and compression tools like `tar`, `bzip2` and
-`gzip`. For more powerful text manipulation `sed` and `awk` are good
-choices. We also recommend to get familiar with text editors which can
-be used to interactively modify text files. Classic Unix environment
-editors are [vi](https://en.wikipedia.org/wiki/) (and derivatives like
-[vim](https://en.wikipedia.org/wiki/Vim_%28text_editor%29)) or
-[Emacs](https://www.gnu.org/software/emacs/). While they are very
-powerful they have a steep learning curve. For beginners `gedit` that
-offers a graphical user interface could be another option.
