@@ -60,12 +60,16 @@ python plot_gff_gene_length_distribution.py NC_016810.gff
 ```
 
 ```
+['temp.py', 'NC_016810.gff']
+```
+
+
+```
 import sys
 
 for line in open(sys.argv[1]):
     print(line)
 ```
-
 
 ```
 import sys
@@ -80,7 +84,78 @@ for line in open(sys.argv[1]):
 import sys
 
 for line in open(sys.argv[1]):
-    print(row[3] - row[4])
+    split_line = line.split()
+    print(split_line)
+    print(split_line[4] - split_line[3])
 ```
 
-...
+```
+['##gff-version', '3']
+Traceback (most recent call last):
+  File "plot_gff_gene_length_distribution.py", line 5, in <module>
+      print(split_line[4] - split_line[3])
+      IndexError: list index out of range
+```
+
+```
+import sys
+for line in open(sys.argv[1]):
+    if line.startswith("#"):
+        continue
+    split_line = line.split()
+    print(split_line)
+    print(split_line[4] - split_line[3])
+```
+
+```
+[...]
+Traceback (most recent call last):
+  File "plot_gff_gene_length_distribution.py", line 7, in <module>
+      print(split_line[4] - split_line[3])
+      TypeError: unsupported operand type(s) for -: 'str' and 'str'
+```
+
+```
+import sys
+for line in open(sys.argv[1]):
+    if line.startswith("#"):
+        continue
+    split_line = line.split()
+    print(split_line)
+    print(int(split_line[4]) - int(split_line[3]))
+```
+
+
+```
+import sys
+
+gene_lengths = []
+
+for line in open(sys.argv[1]):
+    if line.startswith("#"):
+        continue
+    split_line = line.split()
+    curr_gene_length = int(split_line[4]) - int(split_line[3])
+    gene_lengths.append(curr_gene_length)
+
+print(gene_lengths)
+```
+
+```
+import sys
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+gene_lengths = []
+for line in open(sys.argv[1]):
+    if line.startswith("#"):
+        continue
+    split_line = line.split()
+    if split_line[2] == "gene":
+        cur_gene_length = int(split_line[4]) - int(split_line[3])
+        gene_lengths.append(cur_gene_length)
+
+plt.hist(gene_lengths, bins=100, color="gray")
+plt.savefig("{}_gene_length_distribution.pdf".format(sys.argv[1]))
+```
