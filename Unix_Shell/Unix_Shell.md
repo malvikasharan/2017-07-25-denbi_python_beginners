@@ -402,6 +402,12 @@ To remove a folder use the parameter `-r` (*recursive*):
 $ rm -r my_first_folder
 ```
 
+Alternatively you can use the command `rmdir`:
+
+```
+$ rmdir my_first_folder
+```
+
 # File content - part 1
 
 Topics:
@@ -620,8 +626,61 @@ $ head -n 1000 origin_of_species.txt | grep species \
 
 # Repeating command using the `for` loop
 
+Assumin you want to generate a copy of each of your files ending with ´.txt´. A
+
+```
+cp *txt copy_of_*txt
+```
+
+would not work.
+
+With `for` loops you can solve this problem. Let's start with a simple
+one. 
+
+```
+for FILE in three_lines.txt two_lines.txt
+> do
+> head -n 1 $FILE
+> done
+```
+
+The variable `FILE` (you can give it also any other name) can be used
+inside of the loop.
+
+If you git now Ctr-↑ you will get the line
+
+```
+for FILE in three_lines.txt two_lines.txt; do head -n 1 $FILE; done
+```
+
+which is equivalent to the call before. You can not only call one
+command inside of a loop but several:
+
+```
+for FILE in three_lines.txt two_lines.txt
+> do
+> head -n 1 $FILE
+> echo "-----------------"
+> done
+```
+
+```
+for FILE in *txt
+> do
+> head -n 1 $FILE
+> echo "-----------------"
+> done
+```
+
+```
+for FILE in *txt
+> do
+> cp $FILE copy_of_$FILE
+> done
+```
 
 # Shell scripting
+
 
 
 # Examples analysis
@@ -688,6 +747,4 @@ count the number genes on the plus and minus strand:
 ```
 $ cut -f 3,7 NC_016810.gff | grep gene | sort | uniq -c
 ```
-
-
 
