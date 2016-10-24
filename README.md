@@ -22,8 +22,14 @@ for novices to the Unix Shell, Python and git.
 - Breaks
 - Material of the course
 - The etherpad
+    - http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg
+    - Short URL: http://bit.ly/2emNADR
+    - Exercise - add your name to the list of participants
 - Photos
 - HackyHour and WUBSyB
+- Motivation
+    - Automation
+    - Reproducibility / Transparency
 
 ### 2.2 Unix Shell (Konrad)
 
