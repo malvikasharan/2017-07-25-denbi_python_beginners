@@ -9,7 +9,7 @@ for novices to the Unix Shell, Python and git.
 
 ## 2 Schedule
 
-### 2.1 Welcome and introduction 
+### 2.1 Welcome and introduction [9:00 - 9:30]
 
 - Introduction of the instructors and helpers
 - Introduction of the participants
@@ -31,7 +31,7 @@ for novices to the Unix Shell, Python and git.
     - Automation
     - Reproducibility / Transparency
 
-### 2.2 Unix Shell (Konrad)
+### 2.2 Unix Shell (Konrad) [9:30 - 12:00]
 
 - Files, folders, locations
 - Manipulating files and folders
@@ -39,7 +39,7 @@ for novices to the Unix Shell, Python and git.
 - `for` loops
 - Shell scripting
 
-### 2.3 Python
+### 2.3 Python [13:00 - 16:00]
 
 #### 2.3.1 Session 1 (Malvika):
 
@@ -64,7 +64,7 @@ for novices to the Unix Shell, Python and git.
    biopython, collections, scikit-learn, )
 - Writing scripts
 
-### 2.4 Git (Markus)
+### 2.4 Git (Markus) [9:00 - 12:00]
 
 - Setup
 - Creating a Repository
@@ -73,7 +73,7 @@ for novices to the Unix Shell, Python and git.
 - Ignoring things
 - Remote repositories
 
-### 2.5 Open Session
+### 2.5 Open Session [13:00 - 16:00]
 
 This session offers space for further exercises, questions and related
 topics like open source / open content licenses, open science practices,
