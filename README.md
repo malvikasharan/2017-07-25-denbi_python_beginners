@@ -36,7 +36,7 @@ for novices to the Unix Shell, Python and git.
 - Files, folders, locations
 - Manipulating files and folders
 - Connecting tools with pipes
-- For loops
+- `for` loops
 - Shell scripting
 
 ### 2.3 Python
@@ -45,16 +45,17 @@ for novices to the Unix Shell, Python and git.
 
 - Print, literal constants
 - Variables
-- String format operators data structures: str, num (math operators), list, dict
-- file handle
-- new lines, tab etc (regular expression)
-- if else startement
-- for loop
+- String format operators
+- Data structures: str, int, float, list, dict
+- File handling
+- New lines, tab etc., regular expression
+- `if` `else` startement
+- `for` loop
 
 #### 2.3.2 Session 2 (Markus):
 
 - Function definition: reproducibility
-- Doc string, sensible names, argument
+- Doc string, sensible names, arguments
 
 #### 2.3.3 Session 3 (Konrad):
 
