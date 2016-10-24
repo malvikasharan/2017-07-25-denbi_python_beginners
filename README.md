@@ -79,6 +79,10 @@ This session offers space for further exercises, questions and related
 topics like open source / open content licenses, open science practices,
 reproducible research.
 
+- Fill out the [post- workshop survey of
+  SWC](https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=2016-10-26-Wuerzburg)
+- Fill out the feedback form of the GSLS
+
 ## 3 Sources
 
 - Unix shell - Was created based on [Introduction to the Unix Shell
