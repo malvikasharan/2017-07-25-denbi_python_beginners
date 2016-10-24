@@ -66,6 +66,12 @@ for novices to the Unix Shell, Python and git.
 
 ### 2.4 Git (Markus)
 
+- Setup
+- Creating a Repository
+- Tracking Changes
+- Exploring History
+- Ignoring things
+- Remote repositories
 
 ### 2.5 Open Session
 
