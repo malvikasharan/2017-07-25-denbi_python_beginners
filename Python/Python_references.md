@@ -57,7 +57,7 @@ There are several Python tutorials available for beginners, therefore rather tha
 14. Display simple graphs
 15. Basic error and exceptions: try and except
 
-#Editor that we will use in this course: 
+#Basic code editors: 
 * [gedit](https://en.wikipedia.org/wiki/Gedit) (installed)
 * [PyCharm](https://www.jetbrains.com/pycharm/) (Alternative, not installed)
 
