@@ -9,10 +9,13 @@ for novices to the Unix Shell, Python and git.
 
 ## 2 Schedule
 
+### 2.0 Check installation while people are arriving
+
 ### 2.1 Welcome and introduction [9:00 - 9:30]
 
 - Introduction of the instructors and helpers
 - Introduction of the participants
+- Photos
 - Ice breaker - Sort people by the following values:
     - In which year of your PhD are you?
     - How strong are the computational requirement in your PhD
@@ -25,11 +28,12 @@ for novices to the Unix Shell, Python and git.
     - [http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg](http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg)
     - Short URL: [http://bit.ly/2emNADR](http://bit.ly/2emNADR)
     - Exercise - add your name to the list of participants
-- Photos
 - HackyHour and WUBSyB
 - Motivation
+    - Access to (bioinformatical) tools that only have CLI
     - Automation
     - Reproducibility / Transparency
+- Who has still issue with installation?    
 
 ### 2.2 Unix Shell (Konrad) [9:30 - 12:00]
 
@@ -40,6 +44,8 @@ for novices to the Unix Shell, Python and git.
 - Shell scripting
 
 ### 2.3 Python [13:00 - 16:00]
+
+#### 2.3.0 Installation of Jupyter notebook
 
 #### 2.3.1 Session 1 (Malvika):
 
