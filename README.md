@@ -1,47 +1,49 @@
-# Course Material for the Software Carpentry workshop Würzburg 2016-10-26/2016-10-27
+# Course Material for the Software Carpentry workshop Berlin 2017-06-19/2017-06-20
 
 ## 1 About
 
 This is the course material for the [Software
 Carpentry](http://software-carpentry.org/) workshop taking place in
-Würzburg at October 26th and 27th, 2016. The course is an introduction
+Berlin at June 19th and 20th, 2017. The course is an introduction
 for novices to the Unix Shell, Python and git.
 
 ## 2 Schedule
 
-### 2.1 Welcome and introduction [9:00 - 9:30]
+### 2.1 Welcome and introduction
 
 - Introduction of the instructors and helpers
 - Introduction of the participants
 - Ice breaker - Sort people by the following values:
-    - In which year of your PhD are you?
-    - How strong are the computational requirement in your PhD
-    - Considerung the course topic - how strong do you feel about knowing this already?
-    - Group by research field
+    - Which is your field of research
+    - In which year of your research project are you?
+    - How strong are the computational requirement in your project
+    - Considering the course topic - how strong do you feel about knowing this already?
 - Name tags
 - Breaks
 - Material of the course
 - The etherpad
-    - [http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg](http://pad.software-carpentry.org/p/2016-10-26-Wuerzburg)
-    - Short URL: [http://bit.ly/2emNADR](http://bit.ly/2emNADR)
-    - Exercise - add your name to the list of participants
-- Photos
-- HackyHour and WUBSyB
+    - https://piratenpad.de/p/SWC_Berlin - add your name to the list of participants
+- HUB-Berlin
 - Motivation
     - Automation
     - Reproducibility / Transparency
 
-### 2.2 Unix Shell (Konrad) [9:30 - 12:00]
+### 2.2 Unix Shell
+
+#### 2.2.1 Session 1
 
 - Files, folders, locations
 - Manipulating files and folders
 - Connecting tools with pipes
+
+#### 2.2.2 Session 2
+
 - `for` loops
 - Shell scripting
 
-### 2.3 Python [13:00 - 16:00]
+### 2.3 Python
 
-#### 2.3.1 Session 1 (Malvika):
+#### 2.3.1 Session 1
 
 - Print, literal constants
 - Variables
@@ -52,32 +54,30 @@ for novices to the Unix Shell, Python and git.
 - `if` `else` startement
 - `for` loop
 
-#### 2.3.2 Session 2 (Markus):
+#### 2.3.2 Session 2
 
 - Function definition: reproducibility
 - Doc string, sensible names, arguments
 
-#### 2.3.3 Session 3 (Konrad):
+#### 2.3.3 Session 3
 
 - Importing module and module recommendations (important modules: sys,
    math, pandas, numpy, scipy, matplotlib, openpyxl, requests,
    biopython, collections, scikit-learn, )
 - Writing scripts
 
-### 2.4 Git (Markus) [9:00 - 12:00]
+### 2.4 Git
 
-- Setup
-- Creating a Repository
+- Basic principle of version control
+- Git repository
+- Creating a new Repository
 - Tracking Changes
 - Exploring History
 - Ignoring things
-- Remote repositories
+- Git setup (on the terminal)
+- Working with remote repositories
 
-### 2.5 Open Session [13:00 - 16:00]
 
-This session offers space for further exercises, questions and related
-topics like open source / open content licenses, open science practices,
-reproducible research.
 
 - Fill out the [post- workshop survey of
   SWC](https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=2016-10-26-Wuerzburg)
@@ -85,19 +85,11 @@ reproducible research.
 
 ## 3 Sources
 
-- Unix shell - Was created based on [Introduction to the Unix Shell
-  for
-  biologists](https://github.com/konrad/Introduction_to_the_Unix_Shell_for_biologists)
-  by Konrad Förstner
-- Python - Was created based on [a SWC course by Malvika Sharan and
-  Toby
-  Hodges](https://github.com/malvikasharan/Software_carpentry_EMBL)
-- Git - Was created based on the [Software Carpentry introduction to
-  Git for novices](https://github.com/swcarpentry/git-novice) course maintained by
-  Ivan Gonzalez and Daisie Huang
+- Unix shell and Python - Was created based on the SWC courses in [EMBL by Malvika Sharan and
+  Toby Hodges](https://github.com/malvikasharan/Software_carpentry_EMBL) and [Würzburg by Malvika Sharan,
+  Konrad Förstner and Markus Ankenbrand](https://github.com/malvikasharan/2016-10-26-Software_carpentry_course_Wuerzburg)
+- Git - Main repository https://github.com/malvikasharan/swc-berlin-2017
 
 ## 4 License
 
-This work by Malvika Sharan, Markus Ankenbrand, Konrad Förstner is
-licensed under a [Creative Commons Attribution 4.0 International
-License](https://creativecommons.org/licenses/by/4.0/).
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
