@@ -100,23 +100,22 @@ can read those. To get the documentation of `ls` type
 $ man ls
 ```
 
-To close the manual use `q`. Additionally or alternatively many tools
-offer some help via the parameter `-h`, `-help` or `--help`. For
-example `ls`:
+To close the manual use `q`. Search file content with `/` followed by a search term/regular expression (more on regular expressions later). Additionally many tools offer some help via the parameter `-h`, 
+`-help` or `--help`. For example `ls`:
 
 ```
 $ ls --help
 ```
 
-Other tools present this help if they are called without any parameters
-or arguments.
+Other tools will present this help if they are called without any parameters or arguments.
 
-# Bash keyboard shortcuts
+## Bash keyboard shortcuts
 
 There are different implementations of the Unix shell. You are
-currently working with Bash (**B**ourne-**a**gain **sh**ell). Bash has several keyboard shortcuts that
-improve the interaction. Here is a small selection:
+currently working with Bash (**B**ourne-**a**gain **sh**ell). Bash has several keyboard shortcuts that improve the interaction. Here is a 
+small selection:
 
+* Tab - extend commands and file/folder names
 * Ctrl-c - Stop the command
 * Ctlr-↑ - Go backward in command history
 * Ctlr-↓ - Go forward in command history
@@ -126,9 +125,10 @@ improve the interaction. Here is a small selection:
 * Ctrl-k - Remove everything after the cursor position
 * Ctrl-l - Clean the screen
 * Ctrl-r - Search in command history
-* Tab - extend commands and file/folder names
 
 # Files, folders, locations
+
+![A typical Unix filesystem](filesystem.png)
 
 Topics:
 
@@ -139,7 +139,7 @@ Topics:
 * Relative vs. absolute path
 * `~/` 
 
-In this part you will learn how to navigate through the file system,
+In this part you will learn how to navigate through the filesystem,
 explore the content of folders and create folders.
 
 At first we need to know where we are. If you open a new terminal you
@@ -148,11 +148,10 @@ this, call the program `pwd` which stands for **p**rint **w**orking **d**irector
 
 ```
 $ pwd
-/home/ubuntu
+/home/toby
 ```
 
-The default user of the Ubuntu live system is called `ubuntu`. In
-general each user has a folder with its user name located inside
+In general each user has a folder with its user name located inside
 the folder `home`. The next command we need and which has been
 already mentioned above is `ls`. It simply lists the content of a
 folder. If you call it without any arguments it will output the content
