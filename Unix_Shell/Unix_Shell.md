@@ -1,27 +1,28 @@
 % Introduction to the Unix shell
-% Konrad U. Förstner
+% Konrad U. Förstner, Toby Hodges, Holger Dinkel, Frank Thommen
 % 
 
-![CC-BY](by.png)\
+![CC-BY](cc-by.png)
 
-This work by Konrad Förstner is licensed under a [Creative Commons
+This work by Konrad Förstner, Toby Hodges, Holger Dinkel, and Frank Thommen, is licensed under a [Creative Commons
 Attribution 4.0 International
 License](https://creativecommons.org/licenses/by/4.0/).
 
-# Motivation and background
+# Introduction to the Unix shell
+
+## Motivation and background
 
 In this course you will learn the basics of how to use the Unix
 shell. Unix is a class of operating systems with many different
 flavors including well-known ones like GNU/Linux and the BSDs. The
 development of Unix and its shell (also known as command line
-interface) dates back to the late 1960s. Still, their concepts lead to
-very powerful tools. In the command line you can easily combine
-different tools into pipelines, avoid repetitive work and make your
-workflow reproducible. Knowing how to use the shell will also enable
-you to run programs that are only developed for this environment which
-is the case for many bioinformatical tools.
+interface) dates back to the late 1960s. Still, the concepts of this interface lead to very powerful tools. 
+In the command line you can easily combine different tools into pipelines, avoid repetitive work and make your workflow reproducible.
+Knowing how to use the shell will also enable you to run programs that 
+are only developed for this environment, which is the case for many 
+bioinformatical tools.
 
-# Create and download some test files
+## Create and download some test files
 
 Use the `Makefile` of this repo and run
 
@@ -29,27 +30,28 @@ Use the `Makefile` of this repo and run
 $ make example_files
 ```
 
-This should create folder `unix_course_files` thank contains serveral
-examples files
+This should create folder `unix_course_files`, containing several
+examples files.
 
-# The basic anatomy of a command line call
+## The basic anatomy of a command line call
+
+![Anatomy of a command](LinuxCommandStructure.png)
 
 Running a tool in the command line interface follows a simple
 pattern. At first you have to write the name of the command (if it is
 not globally installed it's precise location needs to be given - we
 will get to this later). Some programs additionally require
 parameters. While the parameters are the requirement of the program
-the actual values we give are called arguments. There are two
-different ways how to pass those arguments to a program - via keywords
-parameter (also called named keywords, flags or options) or via
-positional parameters.  The common pattern looks like this (`<>`
-indicates obligatory items, `[]` indicates optional items):
+the actual values we give for these are called arguments. 
+There are two different ways how to pass those arguments to a program 
+- via keywords parameter (also called named keywords, flags or options) or via positional parameters.  The common pattern looks like 
+this (`<>` indicates obligatory items, `[]` indicates optional items):
 
 ```
 <program name> [keyword parameters] [positional parameters]
 ```
 
-An example is calling the program `ls` which lists the content of a
+An example is calling the program `ls`, which lists the content of a
 directory. You can simply call it without any argument
 
 ```
@@ -69,18 +71,22 @@ or with one or more positional arguments
 $ ls test_folder
 ```
 
-or with one or more keyword and positional arguments
+or combining one or more keyword and positional arguments
 
 ```
 $ ls -l test_folder
 ```
 
 The result of a command is written usually to the so called *standard
-output* of the shell which is the screen shown to you. We will later
+output* of the shell, which is the screen shown to you. We will later
 learn how to redirect this e.g. to the *standard input* of another
 program.
 
-# How to get help and documentation
+The diagram below provides a breakdown of the format of output from `ls -l`.
+
+![long form `ls` output](LongListingDeconstructed.png)
+
+## How to get help and documentation
 
 Especially in the beginning you will have a lot of questions what a
 command does and which arguments and parameters need to be given. One
