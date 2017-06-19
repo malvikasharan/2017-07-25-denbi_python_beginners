@@ -80,8 +80,8 @@ for novices to the Unix Shell, Python and git.
 
 
 - Fill out the [post- workshop survey of
-  SWC](https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=2016-10-26-Wuerzburg)
-- Fill out the feedback form of the GSLS
+  SWC]()
+- Fill out the feedback form of the [de.NBI]()
 
 ## 3 Sources
 
