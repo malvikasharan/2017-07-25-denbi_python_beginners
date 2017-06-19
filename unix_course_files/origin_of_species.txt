@@ -1,0 +1,268 @@
+﻿The Project Gutenberg EBook of On the Origin of Species by Means of
+Natural Selection, by Charles Darwin
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: On the Origin of Species by Means of Natural Selection
+       or the Preservation of Favoured Races in the Struggle for
+       Life. (2nd edition)
+
+Author: Charles Darwin
+
+Release Date: September 25, 2007 [EBook #22764]
+
+Language: English
+
+
+*** START OF THIS PROJECT GUTENBERG EBOOK ORIGIN OF SPECIES ***
+
+
+
+
+Produced by Steven Gibbs, Keith Edkins and the Online
+Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+Transcriber's note: A few typographical errors have been corrected: they
+are listed at the end of the text.
+
+       *       *       *       *       *
+
+
+ON THE
+
+ORIGIN OF SPECIES.
+
+       *       *       *       *       *
+
+"But with regard to the material world, we can at least go so far as
+this--we can perceive that events are brought about not by insulated
+interpositions of Divine power, exerted in each particular case, but by the
+establishment of general laws."
+
+WHEWELL: _Bridgewater Treatise_.
+
+"The only distinct meaning of the word 'natural' is _stated_, _fixed_, or
+_settled_; since what is natural as much requires and presupposes an
+intelligent agent to render it so, _i.e._ to effect it continually or at
+stated times, as what is supernatural or miraculous does to effect it for
+once."
+
+BUTLER: _Analogy of Revealed Religion_.
+
+"To conclude, therefore, let no man out of a weak conceit of sobriety, or
+an ill-applied moderation, think or maintain, that a man can search too far
+or be too well studied in the book of God's word, or in the book of God's
+works; divinity or philosophy; but rather let men endeavour an endless
+progress or proficience in both."
+
+BACON: _Advancement of Learning_.
+
+       *       *       *       *       *
+
+  _Down, Bromley, Kent,_
+      _October 1st, 1859._ (_1st Thousand_).
+
+       *       *       *       *       *
+
+
+ON
+
+THE ORIGIN OF SPECIES
+
+BY MEANS OF NATURAL SELECTION,
+
+OR THE
+
+PRESERVATION OF FAVOURED RACES IN THE STRUGGLE
+FOR LIFE.
+
+BY CHARLES DARWIN, M.A.,
+
+FELLOW OF THE ROYAL, GEOLOGICAL, LINNEAN, ETC., SOCIETIES;
+
+AUTHOR OF 'JOURNAL OF RESEARCHES DURING H. M. S. BEAGLE'S VOYAGE
+ROUND THE WORLD.'
+
+_FIFTH THOUSAND._
+
+LONDON:
+JOHN MURRAY, ALBEMARLE STREET.
+1860.
+
+_The right of Translation is reserved._
+
+       *       *       *       *       *
+
+LONDON: PRINTED BY W. CLOWES AND SONS, STAMFORD STREET,
+AND CHARING CROSS.
+
+       *       *       *       *       *
+
+
+{v}
+
+CONTENTS.
+
+       *       *       *       *       *
+
+INTRODUCTION
+
+Page 1
+
+CHAPTER I.
+
+VARIATION UNDER DOMESTICATION.
+
+Causes of Variability--Effects of Habit--Correlation of
+Growth--Inheritance--Character of Domestic Varieties--Difficulty of
+distinguishing between Varieties and Species--Origin of Domestic Varieties
+from one or more Species--Domestic Pigeons, their Differences and
+Origin--Principle of Selection anciently followed, its Effects--Methodical
+and Unconscious Selection--Unknown Origin of our Domestic
+Productions--Circumstances favourable to Man's power of Selection
+
+7-43
+
+CHAPTER II.
+
+VARIATION UNDER NATURE.
+
+Variability--Individual differences--Doubtful species--Wide ranging, much
+diffused, and common species vary most--Species of the larger genera in any
+country vary more than the species of the smaller genera--Many of the
+species of the larger genera resemble varieties in being very closely, but
+unequally, related to each other, and in having restricted ranges
+
+44-59
+
+{vi}
+
+CHAPTER III.
+
+STRUGGLE FOR EXISTENCE.
+
+Its bearing on natural selection--The term used in a wide
+sense--Geometrical powers of increase--Rapid increase of naturalised
+animals and plants--Nature of the checks to increase--Competition
+universal--Effects of climate--Protection from the number of
+individuals--Complex relations of all animals and plants throughout
+nature--Struggle for life most severe between individuals and varieties of
+the same species; often severe between species of the same genus--The
+relation of organism to organism the most important of all relations
+
+60-79
+
+CHAPTER IV.
+
+NATURAL SELECTION.
+
+Natural Selection--its power compared with man's selection--its power on
+characters of trifling importance--its power at all ages and on both
+sexes--Sexual Selection--On the generality of intercrosses between
+individuals of the same species--Circumstances favourable and unfavourable
+to Natural Selection, namely, intercrossing, isolation, number of
+individuals--Slow action--Extinction caused by Natural
+Selection--Divergence of Character, related to the diversity of inhabitants
+of any small area, and to naturalisation--Action of Natural Selection,
+through Divergence of Character and Extinction, on the descendants from a
+common parent--Explains the Grouping of all organic beings
+
+80-130
+
+CHAPTER V.
+
+LAWS OF VARIATION.
+
+Effects of external conditions--Use and disuse, combined with natural
+selection; organs of flight and of vision--Acclimatisation--Correlation of
+growth--Compensation and economy of growth--False correlations--Multiple,
+rudimentary, and lowly organised structures variable--Parts developed in an
+unusual manner are highly variable: specific characters more variable than
+generic: secondary sexual characters variable--Species of the same genus
+vary in an analogous manner--Reversions to long-lost characters--Summary
+
+131-170
+
+{vii}
+
+CHAPTER VI.
+
+DIFFICULTIES ON THEORY.
+
+Difficulties on the theory of descent with
+modification--Transitions--Absence or rarity of transitional
+varieties--Transitions in habits of life--Diversified habits in the same
+species--Species with habits widely different from those of their
+allies--Organs of extreme perfection--Means of transition--Cases of
+difficulty--Natura non facit saltum--Organs of small importance--Organs not
+in all cases absolutely perfect--The law of Unity of Type and of the
+Conditions of Existence embraced by the theory of Natural Selection
+
+171-206
+
+CHAPTER VII.
+
+INSTINCT.
+
+Instincts comparable with habits, but different in their origin--Instincts
+graduated--Aphides and ants--Instincts variable--Domestic instincts, their
+origin--Natural instincts of the cuckoo, ostrich, and parasitic
+bees--Slave-making ants--Hive-bee, its cell-making instinct--Difficulties
+on the theory of the Natural Selection of instincts--Neuter or sterile
+insects--Summary
+
+207-244
+
+CHAPTER VIII.
+
+HYBRIDISM.
+
+Distinction between the sterility of first crosses and of
+hybrids--Sterility various in degree, not universal, affected by close
+interbreeding, removed by domestication--Laws governing the sterility of
+hybrids--Sterility not a special endowment, but incidental on other
+differences--Causes of the sterility of first crosses and of
+hybrids--Parallelism between the effects of changed conditions of life and
+crossing--Fertility of varieties when crossed and of their mongrel
+offspring not universal--Hybrids and mongrels compared independently of
+their fertility--Summary
+
+245-278
+
+{viii}
+
+CHAPTER IX.
+
+ON THE IMPERFECTION OF THE GEOLOGICAL RECORD.
+
+On the absence of intermediate varieties at the present day--On the nature
+of extinct intermediate varieties; on their number--On the vast lapse of
+time, as inferred from the rate of deposition and of denudation--On the
+poorness of our palæontological collections--On the intermittence of
+geological formations--On the absence of intermediate varieties in any one
+formation--On the sudden appearance of groups of species--On their sudden
+appearance in the lowest known fossiliferous strata
+
+279-311
+
+CHAPTER X.
+
+ON THE GEOLOGICAL SUCCESSION OF ORGANIC BEINGS.
+
+On the slow and successive appearance of new species--On their different
+rates of change--Species once lost do not reappear--Groups of species
+follow the same general rules in their appearance and disappearance as do
+single species--On Extinction--On simultaneous changes in the forms of life
+throughout the world--On the affinities of extinct species to each other
+and to living species--On the state of development of ancient forms--On the
+succession of the same types within the same areas--Summary of preceding
+and present chapters
+
