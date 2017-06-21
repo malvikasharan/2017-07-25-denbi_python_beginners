@@ -130,6 +130,9 @@ small selection:
 
 ![A typical Unix filesystem](filesystem.png)
 
+Image source: [Wikimedia / by And1mu](https://commons.wikimedia.org/wiki/File:GNU-Linux_directory_tree.png)
+
+
 Topics:
 
 * `ls `
