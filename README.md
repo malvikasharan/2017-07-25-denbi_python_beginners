@@ -1,11 +1,8 @@
-# Course Material for the Software Carpentry workshop Berlin 2017-06-19/2017-06-20
+# Course Material for the Python course for beginners, HD-HuB, de.NBI, Heidelberg 2017-07-25/2017-07-27
 
 ## 1 About
 
-This is the course material for the [Software
-Carpentry](http://software-carpentry.org/) workshop taking place in
-Berlin at June 19th and 20th, 2017. The course is an introduction
-for novices to the Unix Shell, Python and git.
+This repository contains course materials for the Python course designed for beginners.
 
 ## 2 Schedule
 
@@ -13,37 +10,26 @@ for novices to the Unix Shell, Python and git.
 
 - Introduction of the instructors and helpers
 - Introduction of the participants
-- Ice breaker - Sort people by the following values:
+- Name tags
+- Breaks
+  - First coffee break - Sort people by the following values:
     - Which is your field of research
     - In which year of your research project are you?
     - How strong are the computational requirement in your project
     - Considering the course topic - how strong do you feel about knowing this already?
-- Name tags
-- Breaks
 - Material of the course
 - The etherpad
-    - https://piratenpad.de/p/SWC_Berlin - add your name to the list of participants
-- HUB-Berlin
+    - https://piratenpad.de/p/denbi_course_python - keep an eye here for any comments and extra links
+- Survey
+  - - Fill out the [post- workshop survey](
+https://de.surveymonkey.com/r/denbi-course?sc=hdhub&id=000067)
 - Motivation
     - Automation
     - Reproducibility / Transparency
 
-### 2.2 Unix Shell
+### 2.2 Python
 
 #### 2.2.1 Session 1
-
-- Files, folders, locations
-- Manipulating files and folders
-- Connecting tools with pipes
-
-#### 2.2.2 Session 2
-
-- `for` loops
-- Shell scripting
-
-### 2.3 Python
-
-#### 2.3.1 Session 1
 
 - Print, literal constants
 - Variables
@@ -54,41 +40,25 @@ for novices to the Unix Shell, Python and git.
 - `if` `else` startement
 - `for` loop
 
-#### 2.3.2 Session 2
+#### 2.2.2 Session 2
 
 - Function definition: reproducibility
 - Doc string, sensible names, arguments
 
-#### 2.3.3 Session 3
+#### 2.2.3 Session 3
 
 - Importing module and module recommendations (important modules: sys,
    math, pandas, numpy, scipy, matplotlib, openpyxl, requests,
    biopython, collections, scikit-learn, )
 - Writing scripts
 
-### 2.4 Git
 
-- Basic principle of version control
-- Git repository
-- Creating a new Repository
-- Tracking Changes
-- Exploring History
-- Ignoring things
-- Git setup (on the terminal)
-- Working with remote repositories
-
-
-
-- Fill out the [post- workshop survey of
-  SWC]()
-- Fill out the feedback form of the [de.NBI]()
 
 ## 3 Sources
 
-- Unix shell and Python - Was created based on the SWC courses in [EMBL by Malvika Sharan and
+- Python course was created based on the SWC courses in [EMBL by Malvika Sharan and
   Toby Hodges](https://github.com/malvikasharan/Software_carpentry_EMBL) and [Würzburg by Malvika Sharan,
   Konrad Förstner and Markus Ankenbrand](https://github.com/malvikasharan/2016-10-26-Software_carpentry_course_Wuerzburg)
-- Git - Main repository https://github.com/malvikasharan/swc-berlin-2017
 
 ## 4 License
 
