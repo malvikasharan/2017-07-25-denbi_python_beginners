@@ -1,6 +1,6 @@
-#Python for Novice
+# Python for Novice
 
-##Introduction
+## Introduction
 
 > [Python](https://www.python.org/) is an easy to learn, powerful programming language. 
 > It has efficient high-level data structures and a simple but effective approach to 
@@ -10,7 +10,7 @@
 
 There are several Python tutorials available for beginners, therefore rather than creating a new tutorial we considered putting them together.
 
-###Useful resources:
+### Useful resources:
 
 * Web links:
  * [Software Carpentry: Python lessons for novice](http://swcarpentry.github.io/python-novice-inflammation/)
@@ -39,7 +39,7 @@ There are several Python tutorials available for beginners, therefore rather tha
  * [Learn Python in one video](https://www.youtube.com/watch?v=N4mEzFDjqtA)
  * Many more... (literally millions of [YouTube videos](youtube.com))
 
-#Topics to be discussed
+# Topics to be discussed
 
 1. How To - 'Hello World'
 2. Literal Constants: integers, floats and strings
@@ -57,10 +57,10 @@ There are several Python tutorials available for beginners, therefore rather tha
 14. Display simple graphs
 15. Basic error and exceptions: try and except
 
-#Editor that we will use in this course: 
+# Editor that we will use in this course: 
 * [gedit](https://en.wikipedia.org/wiki/Gedit) (installed)
 * [PyCharm](https://www.jetbrains.com/pycharm/) (Alternative, not installed)
 
-#Debug:
+# Debug:
 http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html
 
